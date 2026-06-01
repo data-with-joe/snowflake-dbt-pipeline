@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: silver_game_sales
+    columns:
+      - name: title
+        tests:
+          - not_null
+      - name: console
+        tests:
+          - not_null
+      - name: genre
+        tests:
+          - not_null
+      - name: total_sales
+        tests:
+          - not_null
