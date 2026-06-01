@@ -41,7 +41,7 @@
     Standardised genre, publisher and developer casing with INITCAP
     Replaced null sales values with 0 using COALESCE
     Parsed release and update dates using TRY_TO_DATE
-    Extracted release year for time-based analysis
+    Extracted release year for time based analysis
     Filtered out rows with null titles
 
 ## Data Quality
@@ -51,13 +51,13 @@
 
 ## Key Concepts Demonstrated
 
-### Modern ELT stack — Snowflake + dbt
-    SQL-based transformations inside a cloud warehouse
+### Modern ELT stack: Snowflake + dbt
+    SQL based transformations inside a cloud warehouse
     dbt model dependencies using ref() and source()
-    Layered transformation (Bronze → Silver → Gold)
+    Layered transformation (Bronze > Silver > Gold)
     Data quality testing with dbt tests
     dbt documentation and lineage graph generation
 
 ### Notes
-Built as part of a data engineering portfolio to demonstrate the Snowflake + dbt stack — the most commonly requested tool combination in modern data engineering job postings.
+Built as part of a data engineering portfolio to demonstrate the Snowflake + dbt stack, the most commonly requested tool combination in modern data engineering job postings.
 
